@@ -2,7 +2,7 @@
 
 > A Windows Forms desktop application demonstrating animated line movement along a rectangular perimeter using GDI+ graphics.
 
-[🇷Русская версия](README.ru.md)
+[Русская версия](README.ru.md)
 
 ## Overview
 
