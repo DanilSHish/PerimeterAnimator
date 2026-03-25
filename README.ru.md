@@ -2,7 +2,7 @@
 
 > Десктопное приложение Windows Forms с анимацией движения линии по периметру прямоугольника с использованием GDI+.
 
-[🇺🇸 English version](README.md)
+[English version](README.md)
 
 ## Описание
 
