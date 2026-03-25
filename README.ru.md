@@ -1,0 +1,118 @@
+# PerimeterAnimator
+
+[![CI](https://github.com/username/PerimeterAnimator/actions/workflows/ci.yml/badge.svg)](../../actions)
+[![C++](https://img.shields.io/badge/C++-CLI-blue.svg)](https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp)
+[![.NET](https://img.shields.io/badge/.NET-Framework%204.0-purple.svg)](https://dotnet.microsoft.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
+
+> Десктопное приложение Windows Forms с анимацией движения линии по периметру прямоугольника с использованием GDI+.
+
+[🇺🇸 English version](README.md)
+
+## 📋 Описание
+
+**PerimeterAnimator** — это приложение на C++/CLI Windows Forms, демонстрирующее плавную анимацию линии, "бегущей" по периметру прямоугольника. Проект демонстрирует принципы ООП, разделение UI и логики, а также рендеринг графики через GDI+.
+
+### Возможности
+
+- 🎨 **Настройка цвета линии** через ColorDialog
+- 📏 **Регулируемая длина линии** — контроль длины отображаемой линии
+- 🔲 **Настройка размера квадрата** — задание размеров области анимации
+- ⏱️ **Изменяемая скорость** — интервал обновления в миллисекундах
+- ▶️ **Управление воспроизведением** — функции Старт/Стоп
+- 🖥️ **Интуитивный интерфейс** — чистый Windows Forms интерфейс
+
+## 🚀 Быстрый старт
+
+### Требования
+
+- Windows 7 или новее
+- Visual Studio 2019/2022 с поддержкой C++/CLI
+- .NET Framework 4.0+
+
+### Сборка
+
+```bash
+git clone https://github.com/username/PerimeterAnimator.git
+cd PerimeterAnimator
+```
+
+Откройте `PerimeterAnimator.sln` в Visual Studio, выберите конфигурацию (`Debug` или `Release`) и платформу (`x86` или `x64`), затем соберите проект через `Ctrl+Shift+B`.
+
+### Использование
+
+1. Запустите приложение
+2. Нажмите **"Настройки"** для конфигурации:
+   - **Размер квадрата** — размеры области анимации
+   - **Длина линии** — длина анимированной линии
+   - **Время (мс)** — интервал обновления анимации
+   - **Цвет** — цвет линии
+3. Нажмите **"Старт"** для запуска анимации
+4. Используйте **"Стоп"** для паузы
+
+## 📁 Структура проекта
+
+```
+PerimeterAnimator/
+├── src/
+│   ├── main.cpp              # Точка входа
+│   ├── MainForm.h/.cpp       # Главное окно (UI + логика)
+│   └── ParametersForm.h/.cpp # Диалог настроек
+├── res/
+│   ├── MainForm.resx         # Ресурсы главной формы
+│   └── ParametersForm.resx   # Ресурсы формы настроек
+├── .github/workflows/ci.yml  # GitHub Actions CI
+├── docs/
+│   ├── ARCHITECTURE.md       # Документация архитектуры (англ.)
+│   └── ARCHITECTURE.ru.md    # Архитектура (рус.)
+├── README.md                 # Документация (англ.)
+├── README.ru.md              # Этот файл
+├── CONTRIBUTING.md           # Руководство по участию
+└── LICENSE                   # Лицензия MIT
+```
+
+## 🏗️ Архитектура
+
+Подробная документация в [ARCHITECTURE.ru.md](docs/ARCHITECTURE.ru.md).
+
+### Диаграмма классов
+
+```
+┌─────────────────┐         ┌─────────────────┐
+│   MainForm      │◄───────►│ ParametersForm  │
+│  (Controller)   │  params │   (Settings)    │
+└────────┬────────┘         └─────────────────┘
+         │
+         │ GDI+ Rendering
+         ▼
+┌─────────────────┐
+│   Panel/Canvas  │
+│  (GDI+ Graphics)│
+└─────────────────┘
+```
+
+## 🛠️ Технологии
+
+- **C++/CLI** — Управляемый C++ для интеграции с .NET
+- **Windows Forms** — Нативный фреймворк UI Windows
+- **GDI+** — 2D графический рендеринг (`System::Drawing`)
+- **.NET Framework 4.0** — Платформа выполнения
+
+## 🤝 Участие в проекте
+
+См. [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## 📄 Лицензия
+
+Лицензия MIT — см. [LICENSE](LICENSE).
+
+## 👤 Автор
+
+Разработано в 2020 году как учебный проект, демонстрирующий C++/CLI и Windows Forms.
+
+---
+
+<p align="center">
+  <i>⭐ Поставьте звезду, если проект оказался полезным!</i>
+</p>
