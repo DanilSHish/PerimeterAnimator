@@ -1,29 +1,23 @@
 # PerimeterAnimator
 
-[![CI](https://github.com/username/PerimeterAnimator/actions/workflows/ci.yml/badge.svg)](../../actions)
-[![C++](https://img.shields.io/badge/C++-CLI-blue.svg)](https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp)
-[![.NET](https://img.shields.io/badge/.NET-Framework%204.0-purple.svg)](https://dotnet.microsoft.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
-
 > Десктопное приложение Windows Forms с анимацией движения линии по периметру прямоугольника с использованием GDI+.
 
 [🇺🇸 English version](README.md)
 
-## 📋 Описание
+## Описание
 
 **PerimeterAnimator** — это приложение на C++/CLI Windows Forms, демонстрирующее плавную анимацию линии, "бегущей" по периметру прямоугольника. Проект демонстрирует принципы ООП, разделение UI и логики, а также рендеринг графики через GDI+.
 
 ### Возможности
 
-- 🎨 **Настройка цвета линии** через ColorDialog
-- 📏 **Регулируемая длина линии** — контроль длины отображаемой линии
-- 🔲 **Настройка размера квадрата** — задание размеров области анимации
-- ⏱️ **Изменяемая скорость** — интервал обновления в миллисекундах
-- ▶️ **Управление воспроизведением** — функции Старт/Стоп
-- 🖥️ **Интуитивный интерфейс** — чистый Windows Forms интерфейс
+- **Настройка цвета линии** через ColorDialog
+- **Регулируемая длина линии** — контроль длины отображаемой линии
+- **Настройка размера квадрата** — задание размеров области анимации
+- ⏱**Изменяемая скорость** — интервал обновления в миллисекундах
+- ▶**Управление воспроизведением** — функции Старт/Стоп
+- **Интуитивный интерфейс** — чистый Windows Forms интерфейс
 
-## 🚀 Быстрый старт
+## Быстрый старт
 
 ### Требования
 
@@ -51,7 +45,7 @@ cd PerimeterAnimator
 3. Нажмите **"Старт"** для запуска анимации
 4. Используйте **"Стоп"** для паузы
 
-## 📁 Структура проекта
+## Структура проекта
 
 ```
 PerimeterAnimator/
@@ -72,7 +66,7 @@ PerimeterAnimator/
 └── LICENSE                   # Лицензия MIT
 ```
 
-## 🏗️ Архитектура
+## Архитектура
 
 Подробная документация в [ARCHITECTURE.ru.md](docs/ARCHITECTURE.ru.md).
 
@@ -92,27 +86,10 @@ PerimeterAnimator/
 └─────────────────┘
 ```
 
-## 🛠️ Технологии
+## Технологии
 
 - **C++/CLI** — Управляемый C++ для интеграции с .NET
 - **Windows Forms** — Нативный фреймворк UI Windows
 - **GDI+** — 2D графический рендеринг (`System::Drawing`)
 - **.NET Framework 4.0** — Платформа выполнения
 
-## 🤝 Участие в проекте
-
-См. [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## 📄 Лицензия
-
-Лицензия MIT — см. [LICENSE](LICENSE).
-
-## 👤 Автор
-
-Разработано в 2020 году как учебный проект, демонстрирующий C++/CLI и Windows Forms.
-
----
-
-<p align="center">
-  <i>⭐ Поставьте звезду, если проект оказался полезным!</i>
-</p>

@@ -1,29 +1,23 @@
 # PerimeterAnimator
 
-[![CI](https://github.com/username/PerimeterAnimator/actions/workflows/ci.yml/badge.svg)](../../actions)
-[![C++](https://img.shields.io/badge/C++-CLI-blue.svg)](https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp)
-[![.NET](https://img.shields.io/badge/.NET-Framework%204.0-purple.svg)](https://dotnet.microsoft.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
-
 > A Windows Forms desktop application demonstrating animated line movement along a rectangular perimeter using GDI+ graphics.
 
-[🇷🇺 Русская версия](README.ru.md)
+[🇷Русская версия](README.ru.md)
 
-## 📋 Overview
+## Overview
 
 **PerimeterAnimator** is a C++/CLI Windows Forms application that demonstrates smooth animation of a line "running" along the perimeter of a rectangle. The project showcases object-oriented programming principles, separation of UI and logic, and GDI+ graphics rendering.
 
 ### Features
 
-- 🎨 **Customizable line color** via ColorDialog
-- 📏 **Adjustable line length** - control how long the animated line appears
-- 🔲 **Configurable square size** - define the animation perimeter dimensions
-- ⏱️ **Variable animation speed** - set update interval in milliseconds
-- ▶️ **Playback controls** - Start/Stop functionality
-- 🖥️ **Intuitive GUI** - clean Windows Forms interface
+- **Customizable line color** via ColorDialog
+- **Adjustable line length** - control how long the animated line appears
+- **Configurable square size** - define the animation perimeter dimensions
+- ⏱**Variable animation speed** - set update interval in milliseconds
+- ▶**Playback controls** - Start/Stop functionality
+- **Intuitive GUI** - clean Windows Forms interface
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -51,7 +45,7 @@ Open `PerimeterAnimator.sln` in Visual Studio, select configuration (`Debug` or 
 3. Click **"Start"** to begin animation
 4. Use **"Stop"** to pause
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 PerimeterAnimator/
@@ -72,7 +66,7 @@ PerimeterAnimator/
 └── LICENSE                   # MIT License
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed architecture documentation.
 
@@ -92,27 +86,9 @@ See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed architecture documentat
 └─────────────────┘
 ```
 
-## 🛠️ Technologies
+## Technologies
 
 - **C++/CLI** - Managed C++ for .NET integration
 - **Windows Forms** - Native Windows UI framework
 - **GDI+** - 2D graphics rendering (`System::Drawing`)
 - **.NET Framework 4.0** - Runtime platform
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE).
-
-## 👤 Author
-
-Developed in 2020 as an educational project demonstrating C++/CLI and Windows Forms.
-
----
-
-<p align="center">
-  <i>⭐ Star this repo if you found it useful!</i>
-</p>
